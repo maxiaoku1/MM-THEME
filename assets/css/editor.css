@@ -1,0 +1,52 @@
+/* Editor styles for MM Theme */
+:root {
+  --color-background: #f4f6fb;
+  --color-surface: #ffffff;
+  --color-primary: #2b59c3;
+  --color-text: #1f2933;
+  --color-text-light: #52606d;
+  --radius-large: 18px;
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-text);
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 4vw;
+}
+
+.wp-block {
+  max-width: 680px;
+}
+
+.wp-block-button__link {
+  background: var(--color-primary);
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+}
+
+.wp-block-quote {
+  border-left: 4px solid var(--color-primary);
+  padding-left: 1.5rem;
+  color: var(--color-text-light);
+}
+
+.wp-block-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.wp-block-table th,
+.wp-block-table td {
+  border: 1px solid rgba(43, 89, 195, 0.2);
+  padding: 0.75rem 1rem;
+}
+
+.wp-block-separator {
+  border: none;
+  border-bottom: 2px solid rgba(43, 89, 195, 0.25);
+  margin: 2rem 0;
+}
